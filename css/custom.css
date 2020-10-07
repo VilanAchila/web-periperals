@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+.shop_slider .shop_slide .item_overlay > input[type='radio'] {
+  position: absolute;
+  left: -999px;
+}
+.coffee_pricing_toggle input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+}
+.coffee_pricing_toggle input[type='radio']:checked + label + .pr_switch {
+  -webkit-transform: translateX(92px);
+  -moz-transform: translateX(92px);
+  -ms-transform: translateX(92px);
+  -o-transform: translateX(92px);
+  transform: translateX(92px);
+}
+.coffee_pricing_toggle input[type='radio']:checked + label {
+  color: #ffffff;
+}
+.product_category > ul > li > input[type='radio'] {
+  position: absolute;
+  left: -9999px;
+}
+
+.product_category > ul > li > input[type='radio']:checked ~ label:after {
+  opacity: 1;
+  visibility: visible;
+}
+.payment_option > ul > li > input[type='radio'] {
+  position: absolute;
+  left: -9999px;
+}
+.reason {
+  font-size: 24px;
+  color: #222;
+}
+.other {
+  padding-right: 10%;
+}
+.product_list_filter > ul > li:last-child {
+  text-align: left;
+}
+.product_list_filter ul.list_view_toggle > li {
+  margin-left: 0;
+}
+.solar-h3 {
+  font-size: 18px;
+  color: #222;
+}
+.solar-list {
+  margin-top: 30px;
+}
+.solar-list li {
+  list-style: square;
+  list-style-position: inside;
+}
+.solar-li-p {
+  padding-left: 20px;
+}
+.solar-tl:after {
+  border-bottom: 1px solid #eeee;
+  content: '';
+  display: block;
+  margin-top: 10px;
+}
+.solar-last {
+  margin: 0 auto;
+  text-align: center;
+}
+.optical h2 {
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  /*margin-top:60px;*/
+}
+.optical p {
+  /*padding-right:16%;*/
+  text-align: center;
+  padding: 0 18%;
+}
+/* .clv_section{
+	padding-bottom: 0px
+} */
+.services-changes h3 {
+  color: #000 !important;
+  font-size: 28px;
+}
+.garden_service2_section .service2_block h3 {
+  font-size: 28px;
+}
+.garden_service2_section .service2_block {
+  padding: 40px 109px;
+}
+.partner {
+  width: 100%;
+  padding: 60px 0;
+}
+.partner h3 {
+  color: #000;
+  margin-bottom: 20px;
+}
+.partner h3:after {
+  content: '';
+  display: block;
+  width: 2%;
+  border-bottom: 2px solid #000;
+  margin-top: 8px;
+}
+.partner ul li {
+  list-style: square;
+  list-style-position: inside;
+  padding: 6px 0;
+}
+.optical1 h2 {
+  color: #000 !important;
+  text-align: justify;
+  font-weight: 700;
+  font-size: 26px;
+}
+.optical1 p {
+  text-align: justify;
+  padding-right: 14%;
+  font-size: 18px;
+  margin-top: 20px;
+  . color: #736963;
+}
+.optical12 p {
+  text-align: justify;
+
+  font-size: 18px;
+  margin-top: 20px;
+  . color: #736963;
+}
+.doc-section {
+  width: 100%;
+  padding: 60px 0;
+}
+.sol-txt {
+  padding: 15px 40px;
+  margin-top: 12px;
+}
+.sol-txt p {
+  color: #736963;
+}
+.doc-head {
+  font-weight: 600;
+  font-size: 28px;
+}
+.section-padding {
+  padding: 40px 50px !important;
+}
+.section-padding p {
+  text-align: justify;
+}
+.section-padding p:before {
+  display: block;
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffff;
+  left: -18px;
+  position: absolute;
+  /*bottom:px;*/
+  margin-top: 10px;
+}
+.smart-img {
+  width: 300px;
+  height: 300px;
+  background: url(../images/smartprint.jpg) no-repeat center;
+  background-size: contain;
+}
+.assessment li {
+  padding: 6px 0;
+}
+.assessment li:before {
+  display: block;
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #000;
+  left: 16px;
+  position: absolute;
+  /*bottom:px;*/
+  margin-top: 9px;
+}

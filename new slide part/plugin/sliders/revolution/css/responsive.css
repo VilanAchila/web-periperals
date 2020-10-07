@@ -1,0 +1,89 @@
+.caption.sft.big_black.start,
+.big_white,
+.medium_grey {
+    position: absolute;
+    left: 104px!important;
+}
+
+p.slidertext {
+    font-size: 17px!important;
+    opacity: 0.9;
+}
+
+.nybtn {
+    font-size: 12px!important;
+    background-color: #47B8FF;
+    color: white;
+    padding: 7px!important;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+}
+
+.rev_bannercontainer {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 27px;
+    position: relative;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1 !important;
+}
+
+.rev_banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .rev_banner {
+        height: 581px !important;
+    }
+}
+
+
+/*	THE MEDIA CHOOSER TO SET DIFFERENT SIZES OF THE CONTAINER DEPENDING ON THE SCREEN SIZE    */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .rev_banner,
+    .rev_bannercontainer {
+        width: 100%;
+        height: 412px;
+    }
+    .caption.sft.big_black.start,
+    .big_white,
+    .medium_grey {
+        position: absolute;
+        left: auto!important;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .rev_banner,
+    .rev_bannercontainer {
+        width: 100%;
+        height: 258px;
+    }
+    .caption.sft.big_black.start,
+    .big_white,
+    .medium_grey {
+        position: absolute;
+        left: auto!important;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+    .rev_banner,
+    .rev_bannercontainer {
+        width: 100%;
+        height: 170px;
+    }
+    .caption.sft.big_black.start,
+    .big_white,
+    .medium_grey {
+        position: absolute;
+        left: auto!important;
+    }
+}
